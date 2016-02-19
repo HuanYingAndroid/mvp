@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.vimplements.activity.MainActivity.NavigationView">
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="@string/home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/magazine"
+        android:orderInCategory="100"
+        android:title="@string/magazine"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/topic"
+        android:orderInCategory="100"
+        android:title="@string/topic"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/message"
+        android:orderInCategory="100"
+        android:title="@string/message"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/profile"
+        android:orderInCategory="100"
+        android:title="@string/profile"
+        app:showAsAction="never" />
+
+</menu>
